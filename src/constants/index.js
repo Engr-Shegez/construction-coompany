@@ -25,26 +25,69 @@ export const counterItems = [
 export const problems = [
   {
     imgPath: "/images/builder.svg",
-    title: " Lack of Transparency",
+    title: " Construction Management",
     description:
-      "To many clients are left in the dark about project timelines, documentation, and actual costs. Hidden charges, vague agreements and unclear communication make the process confusing and risky. With us you shouldn't have to guess what you are paying for or wonder when your home will truly be ready",
+      "From foundation to finishing touches, our experienced construction managers ensure every project is executed with precision, efficiency, and safety. We coordinate teams, timelines, and materials to deliver outstanding structures that last.",
   },
   {
     imgPath: "/images/building-construction.svg",
-    title: "Poor Construction Quality",
+    title: "Materials & Logistics",
     description:
-      "Many developments prioritize speed or profit over durability. The result? Cracked walls, water leaks, or finishes that don't last. Your property should be a lasting investment not a maintenance project waiting to happen",
+      "We manage the full logistics of materials—ensuring timely delivery of concrete, steel, and essential supplies to every site. Our streamlined processes minimize delays and maintain quality from start to finish.",
   },
   {
     imgPath: "/images/concrete.svg",
-    title: "Unaffordable or Inflexible Payment Plans",
+    title: "Structural Development",
     description:
-      "Rigid, one-size-fits-all payment structures make home ownership feel impossible for many. We believe real estate should be accessible to everyone with flexible options that fit youur finacial reality",
+      "With advanced equipment and engineering expertise, we bring architectural visions to life. Our structural development services handle the heavy lifting—literally—building solid frameworks for modern, high-performing spaces.",
   },
   {
     imgPath: "/images/home-delivery.svg",
-    title: "Untrustworthy Developers",
+    title: "Real Estate Design & Delivery",
     description:
-      "Clients are tired of empty promises, delayed projects or outright scams. You deserve a developer who delivers- not one who disappears after collecting payment",
+      "We create premium real estate developments that combine aesthetics, sustainability, and functionality. From concept to completion, we design spaces that redefine urban living and stand the test of time.",
+  },
+];
+
+export const projects = [
+  {
+    imgPath: "/images/photo_1.jpg",
+    title: " Construction Management",
+    description: "View Project",
+  },
+  {
+    imgPath: "/images/photo_2.jpg",
+    title: "Materials & Logistics",
+    description: "View Project",
+  },
+  {
+    imgPath: "/images/photo_3.jpg",
+    title: "Structural Development",
+    description: "View Project",
+  },
+  {
+    imgPath: "/images/photo_15.jpg",
+    title: "Real Estate Design ",
+    description: "View Project",
+  },
+  {
+    imgPath: "/images/photo_6.jpg",
+    title: "Real Estate Design ",
+    description: "View Project",
+  },
+  {
+    imgPath: "/images/photo_7.jpg",
+    title: "Real Estate Design ",
+    description: "View Project",
+  },
+  {
+    imgPath: "/images/photo_8.jpg",
+    title: "Real Estate Design ",
+    description: "View Project",
+  },
+  {
+    imgPath: "/images/photo_9.jpg",
+    title: "Real Estate Design ",
+    description: "View Project",
   },
 ];
