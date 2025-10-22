@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-30 bg-gray-900 shadow-md">
-      <div className="relative mx-auto max-w-11xl sm:px-6 px-4 lg:px-8 py-8 shadow-md rounded-md flex items-center justify-between bg-gray-900">
+      <div className="relative mx-auto max-w-11xl sm:px-6 px-4 lg:px-8 sm:py-8 shadow-md rounded-md flex items-center justify-between bg-gray-900 md:py-3">
         <a
           className="text-white text-xl md:text-2xl font-semibold transition-transform duration-300 hover:scale-105"
           href="#hero"
@@ -41,7 +41,7 @@ const Header = () => {
             aria-label={open ? "Close menu" : "Open menu"}
             aria-expanded={open}
             onClick={() => setOpen((v) => !v)}
-            className="p-4 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500 relative w-8 h-8"
+            className="p-4 rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500 relative w-8 h-5"
           >
             <div className="absolute left-1 top-1/2 -translate-x-1/2 -translate-y-1/2">
               <span
@@ -74,7 +74,7 @@ const Header = () => {
         <div className="lg:hidden absolute left-0 right-0 top-full z-40">
           {/* Background overlay (blurs everything except navbar) */}
           <div
-            className="fixed top-[96px] left-0 right-0 bottom-0 bg-black/40 backdrop-blur-sm transition-opacity duration-300"
+            className="fixed top-[55px] left-0 right-0 bottom-0 bg-black/40 backdrop-blur-sm transition-opacity duration-300"
             onClick={() => setOpen(false)}
           ></div>
           {/* right-side dropdown panel */}
