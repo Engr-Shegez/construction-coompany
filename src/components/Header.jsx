@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-30 bg-gray-900 shadow-md">
-      <div className="relative mx-auto max-w-11xl sm:px-6 px-4 lg:px-8 sm:py-8 shadow-md rounded-md flex items-center justify-between bg-gray-900 md:py-3">
+      <div className="relative mx-auto max-w-11xl sm:px-6 px-4 lg:px-8 py-5 shadow-md rounded-md flex items-center justify-between bg-gray-900 md:py-7">
         <a
           className="text-white text-xl md:text-2xl font-semibold transition-transform duration-300 hover:scale-105"
           href="#hero"
@@ -74,12 +74,12 @@ const Header = () => {
         <div className="lg:hidden absolute left-0 right-0 top-full z-40">
           {/* Background overlay (blurs everything except navbar) */}
           <div
-            className="fixed top-20 left-0 right-0 bottom-0 bg-black/40 backdrop-blur-sm transition-opacity duration-300"
+            className="fixed top-[90px] left-0 right-0 bottom-0 bg-black/40 backdrop-blur-sm transition-opacity duration-300"
             onClick={() => setOpen(false)}
           ></div>
           {/* right-side dropdown panel */}
           <div
-            className={`absolute right-0 w-3/4 sm:w-1/3 bg-transparent shadow-2xl px-6 py-8 transition-transform duration-300 ease-out ${
+            className={`absolute right-0 md:w-2/5 w-1/2 bg-transparent shadow-2xl px-6 py-8 transition-transform duration-300 ease-out ${
               open
                 ? "translate-y-0 opacity-100"
                 : "-translate-y-5 opacity-0 pointer-events-none"
