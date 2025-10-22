@@ -9,7 +9,7 @@ const About = () => {
     >
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
         <div className="md:w-full text-center md:text-left">
-          <h2 className="text-5xl font-extrabold mb-20 -mt-10 text-center">
+          <h2 className="text-5xl font-extrabold mb-20 mt-10 text-center">
             About Our Development Practice
           </h2>
           <p className="text-lg text-gray-100 mb-4">

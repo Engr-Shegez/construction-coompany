@@ -7,8 +7,8 @@ const Header = () => {
   const handleLinkClick = () => setOpen(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-gray-900 shadow-md">
-      <div className="relative mx-auto max-w-11xl sm:px-6 px-4 lg:px-8 py-10 shadow-md rounded-md flex items-center justify-between bg-gray-900">
+    <header className="fixed top-0 left-0 right-0 z-30 bg-gray-900 shadow-md">
+      <div className="relative mx-auto max-w-11xl sm:px-6 px-4 lg:px-8 py-8 shadow-md rounded-md flex items-center justify-between bg-gray-900">
         <a
           className="text-white text-xl md:text-2xl font-semibold transition-transform duration-300 hover:scale-105"
           href="#hero"
