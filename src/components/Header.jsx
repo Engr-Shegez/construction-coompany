@@ -74,12 +74,12 @@ const Header = () => {
         <div className="lg:hidden absolute left-0 right-0 top-full z-40">
           {/* Background overlay (blurs everything except navbar) */}
           <div
-            className="fixed top-[55px] left-0 right-0 bottom-0 bg-black/40 backdrop-blur-sm transition-opacity duration-300"
+            className="fixed top-20 left-0 right-0 bottom-0 bg-black/40 backdrop-blur-sm transition-opacity duration-300"
             onClick={() => setOpen(false)}
           ></div>
           {/* right-side dropdown panel */}
           <div
-            className={`absolute right-0 w-3/4 sm:w-1/2 bg-gray-900 shadow-2xl px-6 py-8 transition-transform duration-300 ease-out ${
+            className={`absolute right-0 w-3/4 sm:w-1/3 bg-transparent shadow-2xl px-6 py-8 transition-transform duration-300 ease-out ${
               open
                 ? "translate-y-0 opacity-100"
                 : "-translate-y-5 opacity-0 pointer-events-none"
@@ -92,7 +92,7 @@ const Header = () => {
                   <a
                     href={link}
                     onClick={handleLinkClick}
-                    className="block text-white text-lg px-2 py-2 rounded hover:bg-white/10 transition-colors"
+                    className="block text-white text-lg px-2 py-2 rounded hover:bg-gray-900 transition-colors"
                   >
                     {name}
                   </a>
@@ -102,7 +102,7 @@ const Header = () => {
                 <a
                   href="#contact"
                   onClick={handleLinkClick}
-                  className="inline-block px-3 py-2 rounded bg-amber-950 text-white hover:opacity-90 transition"
+                  className="inline-block px-3 py-2 rounded bg-amber-950 hover:bg-orange-900 text-white hover:opacity-90 transition"
                 >
                   Contact
                 </a>
