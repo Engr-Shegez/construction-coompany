@@ -1,5 +1,6 @@
 import React from "react";
 import AnimatedCounter from "./AnimatedCounter";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -58,12 +59,12 @@ const About = () => {
             </li>
           </ul>
 
-          <a
-            href="#contact"
+          <Link
+            to="/workWithUs"
             className="inline-block bg-cyan-900 text-white px-8 py-3 mt-8 rounded-lg font-semibold hover:bg-cyan-700 transition"
           >
             Work with Us
-          </a>
+          </Link>
         </div>
       </div>
     </section>

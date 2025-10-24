@@ -35,8 +35,8 @@ const Problem = () => {
           <img
             src="/images/platform.jpg"
             alt="Who We Are"
-            className="w-4/5 md:w-3/4 h-98 lg:w-8/9 
-            object-cover rounded-xl shadow-lg transform -rotate-3  transition-transform duration-400 hover:rotate-0"
+            className="w-6/7 md:w-3/4 h-98 lg:w-8/9 
+            object-cover rounded-xl shadow-lg transform -rotate-3  transition-transform duration-400 hover:rotate-4"
           />
         </div>
       </div>
@@ -50,4 +50,3 @@ const Problem = () => {
 };
 
 export default Problem;
-

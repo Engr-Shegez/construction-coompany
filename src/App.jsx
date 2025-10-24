@@ -1,26 +1,24 @@
 import React from "react";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Problem from "./components/Problem";
-import Project from "./components/Project";
-import Solutions from "./components/Solutions";
-import Footer from "./components/Footer";
-import Contact from "./components/Contact";
-import About from "./components/About";
+
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import ExplorePage from "./pages/ExplorePage";
+import Home from "./pages/Home";
+import Layout from "./components/Layout";
+import WorkWithUsPage from "./pages/WorkWithUsPage";
+import ViewProject from "./pages/ViewProject";
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      <Hero />
-      <Problem />
-      <About />
-      <Project />
-      <Solutions />
-
-      <Contact />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="/explore" element={<ExplorePage />} />
+          <Route path="/workWithUs" element={<WorkWithUsPage />} />
+          <Route path="/viewProject" element={<ViewProject />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 };
 

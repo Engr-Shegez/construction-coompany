@@ -64,7 +64,7 @@ const Footer = () => {
               href="mailto:support@novagadget.com"
               className="hover:text-blue-400 transition-colors"
             >
-              support@novagadget.com
+              support@RahimConstructions.com
             </a>
           </p>
           <p className="text-gray-300 mb-2">

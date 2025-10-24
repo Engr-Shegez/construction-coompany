@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
     <section
       id="hero"
-      className="relative w-full h-[60vh] lg:h-[70vh] md:h-screen overflow-hidden"
+      className="relative w-full h-[80vh] lg:h-[90vh] md:h-screen overflow-hidden"
     >
       {/* Background image */}
       <img
@@ -23,7 +24,7 @@ const Hero = () => {
           new benchmarks in architecture, sustainability, and livability.
         </p>
         <button className="mt-20 w-fit bg-cyan-900 hover:bg-cyan-500 text-white font-semibold  py-2 px-6 rounded-full transition">
-          EXPLORE ⇨
+          <Link to="/explore">EXPLORE ⇨</Link>
         </button>
       </div>
     </section>
