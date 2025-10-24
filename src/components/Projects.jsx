@@ -2,6 +2,7 @@ import React from "react";
 import { projects } from "../constants";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { FaArrowRight } from "react-icons/fa";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 60 },
@@ -58,7 +59,12 @@ const Solutions = () => {
                     to="/viewProject"
                     className="mt-2 text-yellow-400 underline hover:text-white hover:cursor-pointer transition-colors text-sm z-30 relative"
                   >
-                    View Project →
+                    <span className="flex">
+                      View Project
+                      <button className=" hover:text-white text-yellow-400 p-2 rounded-full transition-all size-8 flex items-center justify-center -mt-1.5">
+                        <FaArrowRight />
+                      </button>
+                    </span>
                   </Link>
                 </div>
               </div>

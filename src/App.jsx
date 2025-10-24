@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Layout from "./components/Layout";
 import WorkWithUsPage from "./pages/WorkWithUsPage";
 import ViewProject from "./pages/ViewProject";
+import ReadMorePage from "./pages/ReadMorePage";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/explore" element={<ExplorePage />} />
           <Route path="/workWithUs" element={<WorkWithUsPage />} />
           <Route path="/viewProject" element={<ViewProject />} />
+          <Route path="/readMore" element={<ReadMorePage />} />
         </Route>
       </Routes>
     </BrowserRouter>

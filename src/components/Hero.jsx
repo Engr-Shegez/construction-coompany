@@ -1,4 +1,5 @@
 import React from "react";
+import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
@@ -23,8 +24,11 @@ const Hero = () => {
           We design, develop, and deliver premium real estate projects that set
           new benchmarks in architecture, sustainability, and livability.
         </p>
-        <button className="mt-20 w-fit bg-cyan-900 hover:bg-cyan-500 text-white font-semibold  py-2 px-6 rounded-full transition">
-          <Link to="/explore">EXPLORE ⇨</Link>
+        <button className="mt-20 w-fit bg-cyan-900 hover:bg-cyan-500 text-white font-semibold  py-4 px-10 rounded-full transition ">
+          <Link to="/explore" className="flex gap-3 ">
+            EXPLORE
+            <FaArrowRight className="mt-1.5" />
+          </Link>
         </button>
       </div>
     </section>

@@ -8,7 +8,7 @@ const Project = () => {
         Built with Purpose. Made to Endure.
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mx-auto px-7 pl-2  md:pr-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mx-auto w-4/5 ">
         {problems.map(({ imgPath, title, description }, index) => (
           <div
             key={index}

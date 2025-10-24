@@ -1,6 +1,8 @@
 import React from "react";
 
 import AnimatedCounter from "./AnimatedCounter";
+import { Link } from "react-router-dom";
+import { FaArrowRight } from "react-icons/fa";
 
 const Problem = () => {
   return (
@@ -27,7 +29,16 @@ const Problem = () => {
             maximizing long-term value. As trusted owner-developers, we align
             design, finance, construction, and sales around a single commercial
             and ethical objective: to create lasting value.
+            <br />
+            <br />
+            Lets Build something extraordinary, together.
           </p>
+          <button className="mt-8 w-fit bg-cyan-900 hover:bg-cyan-500 text-white font-semibold  py-4 px-8 rounded-full transition flex gap-2 ">
+            ReadMore
+            <Link to="/readMore" className="mt-1.5">
+              <FaArrowRight />
+            </Link>
+          </button>
         </div>
 
         {/* Right: Image Section */}
